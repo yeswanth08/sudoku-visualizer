@@ -19,9 +19,11 @@ public class Frame extends JFrame {
     }
 
     private void Init() {
+        
         setTitle(features.getTitle());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(features.getWidth(), features.getHeight());
+        setBackground(features.getBackground());
 
         progressBar.setStringPainted(true);
         progressBar.setValue(0);
