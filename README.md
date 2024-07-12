@@ -18,7 +18,7 @@ Sudoku Visualizer is a Java application that allows users to visualize and solve
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/sudoku-visualizer.git
+    git clone https://github.com/yeswanth08/sudoku-visualizer.git
     cd sudoku-visualizer
     ```
 
@@ -29,12 +29,12 @@ Sudoku Visualizer is a Java application that allows users to visualize and solve
 
 1. **Compile the application:**
     ```sh
-    javac -d bin src/com/sudoku/*.java
+    javac -d dist -sourcepath src src/utils/*.java src/seeder/*.java src/SudokuApp.java
     ```
 
 2. **Run the application:**
     ```sh
-    java -cp bin com.sudoku.SudokuVisualizer
+    java -cp dist SudokuApp
     ```
 
 3. **Enter a Sudoku puzzle:**
