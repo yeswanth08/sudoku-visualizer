@@ -37,7 +37,7 @@ public class Frame extends JFrame {
     }
 
     public void SetProgress(int value) {
-        if (value>98) value = 100;
+        if (value>94) value = 100;
         progressBar.setValue(value);
         updateProgressBarColor(value);
     }
