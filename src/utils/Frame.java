@@ -24,7 +24,7 @@ public class Frame extends JFrame {
         setSize(features.getWidth(), features.getHeight());
 
         progressBar.setStringPainted(true);
-        progressBar.setValue(25);
+        progressBar.setValue(0);
         progressBar.setBorder(new EmptyBorder(60,0,0,80));
 
         JPanel progressPanel = new JPanel(new FlowLayout());
